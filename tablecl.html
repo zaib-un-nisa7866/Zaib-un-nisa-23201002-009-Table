@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invoice Table</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+  }
+  th {
+    background-color: #eeeeee;
+    font-weight: normal;
+  }
+  .status {
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .Not-Completed {
+    background-color: #f0ad4e;
+  }
+  .Completed {
+    background-color: #5cb85c;
+  }
+  .Processing {
+    background-color: #5bc0de;
+  }
+  .action-btns {
+    font-size: 16px;
+  }
+  .edit {
+    color: #5bc0de;
+    margin-right: 5px;
+  }
+  .delete {
+    color: #d9534f;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>INVOICE</th>
+      <th>NAME</th>
+      <th>DATE</th>
+      <th>PAYMENT STATUS</th>
+      <th>AMOUNT</th>
+      <th>ACTION</th>
+    </tr>
+  </thea
+  <tbody>
+    <tr>
+      <td>NA</td>
+      <td>Pratham</td>
+      <td>01/04/2022</td>
+      <td class="status Not-Completed">Not Completed</td>
+      <td>22,000</td>
+      <td class="action-btns">
+        <span class="edit">✎</span>
+        <span class="delete">✖</span>
+      </td>
+    </tr>
+     <tr>
+      <td>INV_1</td>
+      <td>Doe</td>
+      <td>01/04/2022</td>
+      <td class="status Completed">Completed</td>
+      <td>23,000</td>
+      <td class="action-btns">
+        <span class="edit">✎</span>
+        <span class="delete">✖</span>
+      </td>
+    </tr>
+     <tr>
+      <td>INV_2</td>
+      <td>Cristian</td>
+      <td>01/04/2022</td>
+      <td class="status Processing ">Processing</td>
+      <td>28,000</td>
+      <td class="action-btns">
+        <span class="edit">✎</span>
+        <span class="delete">✖</span>
+      </td>
+    </tr>
+     <tr>
+      <td>INV_3</td>
+      <td>Kiran</td>
+      <td>01/04/2022</td>
+      <td class="status Processing">Processing</td>
+      <td>25,000</td>
+      <td class="action-btns">
+        <span class="edit">✎</span>
+        <span class="delete">✖</span>
+      </td>
+    </tr>
+     <tr>
+      <td>INV_4</td>
+      <td>Kite</td>
+      <td>01/04/2022</td>
+      <td class="status Completed">Completed</td>
+      <td>22,000</td>
+      <td class="action-btns">
+        <span class="edit">✎</span>
+        <span class="delete">✖</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
